@@ -2,23 +2,23 @@
 
 Una aplicación avanzada de interfaz gráfica desarrollada en Python con PyQt5 que escanea texto matemático manuscrito y **genera demostraciones matemáticas formales** usando notaciones como Gentzen e inducción matemática.
 
-## 🚀 Características Principales
+##  Características Principales
 
-### **Reconocimiento OCR Avanzado** 🔍
+### **Reconocimiento OCR Avanzado** 
 - **Sistema Multi-Estrategia**: 6 variantes de preprocesamiento × 7 configuraciones OCR = 42 intentos de reconocimiento
 - **EasyOCR optimizado** para manuscritos matemáticos con análisis espacial
 - **Análisis Espacial**: Detección inteligente de fracciones manuscritas (números apilados verticalmente) y potencias (números pequeños arriba-derecha)
 - **Corrección automática** de 50+ símbolos matemáticos mal reconocidos
 - **Preprocesamiento especializado** para elementos complejos (raíces, sumatorias, secuencias con "...")
 
-### **Motor de Demostraciones Matemáticas** 🧮
+### **Motor de Demostraciones Matemáticas** 
 - **Inducción Matemática Universal**: Sistema inteligente que detecta y demuestra automáticamente patrones
 - **Método de Gentzen**: Cálculo de secuentes para lógica proposicional
 - **Teoría de Conjuntos**: Demostraciones de relaciones de subconjuntos, unión, intersección
 - **Análisis Automático**: Detección inteligente del tipo de problema matemático
 - **Generación de Pruebas Formales**: LaTeX con formato matemático profesional
 
-### **Reconocimiento Espacial de Elementos Manuscritos** 📐
+### **Reconocimiento Espacial de Elementos Manuscritos** 
 - **Fracciones Manuscritas**: Reconoce "dos números uno encima del otro separados por línea" usando análisis de posición vertical
 - **Potencias Contextuales**: Distingue entre número normal y exponente basándose en tamaño y posición (pequeño, arriba-derecha)
 - **Subíndices**: Detección de números pequeños abajo-derecha para notación científica
@@ -74,15 +74,15 @@ python3 main.py
 ### Flujo de Trabajo Simplificado
 
 1. **Ejecutar**: `python main.py`
-2. **Cargar imagen**: Botón "📁 Cargar Imagen"
-3. **Procesar**: Botón "🔍 Procesar con OCR" (usa automáticamente el sistema multi-estrategia)
+2. **Cargar imagen**: Botón "Cargar Imagen"
+3. **Procesar**: Botón "Procesar con OCR" (usa automáticamente el sistema multi-estrategia)
 4. **Ver resultados**: La aplicación muestra automáticamente:
    - Texto extraído con corrección de símbolos matemáticos
    - Análisis del tipo de problema detectado
    - Demostración matemática generada
    - Código LaTeX compilable
 
-5. **Guardar**: Botón "💾 Guardar Resultados" para exportar todos los archivos
+5. **Guardar**: Botón "Guardar Resultados" para exportar todos los archivos
 
 ### Tipos de Problemas que Reconoce Automáticamente
 
