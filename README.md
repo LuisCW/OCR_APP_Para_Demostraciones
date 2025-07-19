@@ -1,6 +1,6 @@
 # Escáner OCR con Motor de Demostraciones Matemáticas
 
-Una aplicación avanzada de interfaz gráfica desarrollada en Python con PyQt5 que escanea texto matemático manuscrito y **genera demostraciones matemáticas formales** usando métodos como Gentzen y inducción matemática.
+Una aplicación avanzada de interfaz gráfica desarrollada en Python con PyQt5 que escanea texto matemático manuscrito y **genera demostraciones matemáticas formales** usando notaciones como Gentzen e inducción matemática.
 
 ## 🚀 Características Principales
 
