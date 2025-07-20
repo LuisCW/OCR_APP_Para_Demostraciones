@@ -2,6 +2,19 @@
 
 Una aplicación avanzada de interfaz gráfica desarrollada en Python con PyQt5 que escanea texto matemático manuscrito y **genera demostraciones matemáticas formales** usando notaciones como Gentzen e inducción matemática.
 
+## Objetivos del proyecto
+
+### Objetivo General
+
+Desarrollar una aplicación de escritorio capaz de reconocer escritura matemática manuscrita mediante técnicas avanzadas de OCR y análisis espacial, generando de forma automática demostraciones matemáticas formales utilizando métodos como la inducción matemática y la teoría de conjuntos en nomenclatura de Gentzen, para después reescribirlo en código de Latex.
+
+### Objetivos Específicos
+
+- Diseñar un sistema OCR multi-estrategia que combine múltiples técnicas de preprocesamiento de imagen y configuraciones de reconocimiento, enfocado en los métodos de reescritura.
+- Implementar un módulo de análisis espacial que permita detectar elementos matemáticos complejos como fracciones, potencias, subíndices y secuencias mediante la posición relativa y el tamaño de los caracteres.
+- Construir una interfaz gráfica intuitiva con PyQt5, que permita al usuario cargar imágenes, visualizar los resultados del OCR, acceder a la demostración generada y exportar los datos obtenidos.
+- Automatizar la generación de documentos LaTeX que integren tanto las fórmulas matemáticas reconocidas como las demostraciones completas, que puedan ser utilizados en contextos matemáticos y profesionales.
+
 ##  Características Principales
 
 ### **Reconocimiento OCR Avanzado** 
