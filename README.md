@@ -82,6 +82,14 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
+## Limitaciones del Proyecto
+
+El programa presenta limitaciones claras, tales como:
+
+ - En demostraciones por Inducción, debido que no se pudo realizar un único sistema para todas las inducciones, debido a que estaba fuera de nuestros límites.
+ - Realiza Inducciones en patrones únicamente, por tant hará inducciones que se agregan a dicho patrón.
+ - Al momento de pasar el archivo con notación de Gentzen dependiendo de la complejidad de la demostración de conjuntos puede no realizarlo bien.
+
 ## Uso
 
 ### Flujo de Trabajo Simplificado
