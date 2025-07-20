@@ -2,7 +2,7 @@
 
 Una aplicación avanzada de interfaz gráfica desarrollada en Python con PyQt5 que escanea texto matemático manuscrito y **genera demostraciones matemáticas formales** usando notaciones como Gentzen e inducción matemática.
 
-## Objetivos del proyecto
+## ¿Qué se busca con este proyecto?
 
 ### Objetivo General
 
