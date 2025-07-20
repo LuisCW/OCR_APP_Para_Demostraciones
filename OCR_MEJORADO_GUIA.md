@@ -1,12 +1,12 @@
-# 📖 GUÍA DEL SISTEMA OCR MEJORADO
+# GUÍA DEL SISTEMA OCR MEJORADO
 
-## 🎯 Descripción
+## Descripción
 
 El **Sistema OCR Mejorado** es una actualización significativa del reconocimiento de fórmulas matemáticas manuscritas que implementa múltiples estrategias de procesamiento y reconocimiento para mejorar dramáticamente la precisión.
 
-## 🚀 Características Principales
+## Características Principales
 
-### ✨ Procesamiento Multi-Estrategia
+### Procesamiento Multi-Estrategia
 - **6 variantes de preprocesamiento** optimizadas para diferentes tipos de escritura:
   - Escritura clara y legible
   - Escritura borrosa o desenfocada  
@@ -15,7 +15,7 @@ El **Sistema OCR Mejorado** es una actualización significativa del reconocimien
   - Escritura con ruido de fondo
   - **NUEVO**: Estructuras matemáticas complejas (fracciones, potencias, raíces)
 
-### 🧠 Reconocimiento Inteligente Avanzado
+### Reconocimiento Inteligente Avanzado
 - **7 configuraciones OCR** diferentes para cada variante de imagen
 - **42 intentos total** (6 variantes × 7 configuraciones) por imagen
 - Configuraciones especializadas para:
@@ -27,7 +27,7 @@ El **Sistema OCR Mejorado** es una actualización significativa del reconocimien
   - Puntaje de contenido matemático avanzado
   - Detección de elementos complejos (fracciones, potencias, secuencias)
 
-### 🔧 Corrección Automática Avanzada
+### Corrección Automática Avanzada
 - **50+ correcciones** para símbolos matemáticos comunes
 - **Detección inteligente** de:
   - Fracciones: `1/2`, `(x+1)/(x-1)`
@@ -40,7 +40,7 @@ El **Sistema OCR Mejorado** es una actualización significativa del reconocimien
   - Funciones: `sin`, `cos`, `log`, `ln`
   - Letras griegas: `α`, `β`, `π`, `θ`, `σ`
 
-## 📋 Instalación
+## Instalación
 
 ### 1. Instalar Dependencias
 ```bash
@@ -52,7 +52,7 @@ python install_enhanced_ocr.py
 pip install easyocr opencv-python pillow numpy matplotlib
 ```
 
-## 🖥️ Uso
+##  Uso
 
 ### Desde la Aplicación Principal
 El sistema OCR mejorado se integra automáticamente en `main.py`. Solo ejecuta:
@@ -113,7 +113,7 @@ if "error" not in result:
     print(f"Método usado: {result['method']}")
 ```
 
-## 📊 Interpretación de Resultados
+## Interpretación de Resultados
 
 ### Métricas Principales
 - **Confianza (0.0-1.0)**: Confianza del motor OCR en el reconocimiento
@@ -127,34 +127,34 @@ if "error" not in result:
 - `weak_writing_config3`: Escritura débil, configuración de contraste
 - `noisy_writing_config0`: Escritura con ruido, configuración robusta
 
-## 🔍 Tipos de Escritura Soportados
+## Tipos de Escritura Soportados
 
-### ✅ Escritura Clara
+### Escritura Clara
 - Manuscritos legibles con trazo firme
 - Buena iluminación y contraste
 - Sin ruido de fondo significativo
 
-### ✅ Escritura Borrosa
+### Escritura Borrosa
 - Imágenes desenfocadas o movidas
 - Manuscritos con trazo irregular
 - Calidad de escaneo baja
 
-### ✅ Símbolos Pequeños
+### Símbolos Pequeños
 - Fórmulas con símbolos matemáticos diminutos
 - Subíndices y superíndices
 - Notación compacta
 
-### ✅ Escritura Débil
+### Escritura Débil
 - Trazo suave o con poco contraste
 - Lápiz claro o tinta diluida
 - Iluminación deficiente
 
-### ✅ Escritura con Ruido
+### Escritura con Ruido
 - Fondo con textura o manchas
 - Papel arrugado o sucio
 - Artefactos de digitalización
 
-## 🧮 Símbolos Matemáticos Soportados
+## Símbolos Matemáticos Soportados
 
 ### Teoría de Conjuntos
 - `∪` (unión), `∩` (intersección)
@@ -230,7 +230,7 @@ if "error" not in result:
 - `∞` (infinito), `±` (más-menos)
 - `≈` (aproximadamente), `≡` (idéntico)
 
-## ⚡ Optimizaciones de Rendimiento
+## Optimizaciones de Rendimiento
 
 ### Timeouts Inteligentes
 - Límite de 20 segundos por configuración OCR
@@ -247,7 +247,7 @@ if "error" not in result:
 - Gestión inteligente de modelos OCR
 - Límites de memoria para imágenes grandes
 
-## 🐛 Resolución de Problemas
+## Resolución de Problemas
 
 ### Error: "EasyOCR no está instalado"
 ```bash
@@ -270,7 +270,7 @@ pip install easyocr
 - Imágenes muy grandes requieren más tiempo
 - Considera reducir la resolución de entrada
 
-## 📈 Métricas de Rendimiento Esperadas
+## Métricas de Rendimiento Esperadas
 
 ### Precisión
 - **Escritura clara**: 85-95% precisión
@@ -286,38 +286,38 @@ pip install easyocr
 
 *Nota: Los tiempos incluyen el procesamiento de todas las variantes*
 
-## 🔄 Historial de Versiones
+## Historial de Versiones
 
 ### v2.2 (Actual) - Análisis Espacial Inteligente 🎯
-- ✅ **ANÁLISIS ESPACIAL**: Detección basada en posición relativa de elementos
-- ✅ **FRACCIONES MANUSCRITAS**: Reconoce numerador arriba, línea, denominador abajo
-- ✅ **POTENCIAS REALES**: Solo detecta números pequeños arriba a la derecha
-- ✅ **SUBÍNDICES**: Números pequeños abajo a la derecha  
-- ✅ **SECUENCIAS ESPACIALES**: Elementos alineados horizontalmente
-- ✅ Priorización de análisis espacial sobre OCR estándar
-- ✅ Script de pruebas específico para elementos manuscritos
+- **ANÁLISIS ESPACIAL**: Detección basada en posición relativa de elementos
+- **FRACCIONES MANUSCRITAS**: Reconoce numerador arriba, línea, denominador abajo
+- **POTENCIAS REALES**: Solo detecta números pequeños arriba a la derecha
+- **SUBÍNDICES**: Números pequeños abajo a la derecha  
+- **SECUENCIAS ESPACIALES**: Elementos alineados horizontalmente
+- Priorización de análisis espacial sobre OCR estándar
+- Script de pruebas específico para elementos manuscritos
 ### v2.1 (Anterior) - Elementos Matemáticos Complejos ✨
-- ✅ 6 variantes de preprocesamiento (incluye estructuras matemáticas)
-- ✅ 7 configuraciones OCR especializadas (42 intentos totales)
-- ✅ Detección avanzada de fracciones, potencias, raíces
-- ✅ Reconocimiento de sumatorias, integrales, secuencias
-- ✅ Corrección inteligente de 50+ símbolos matemáticos
-- ✅ Procesamiento especial para elementos verticales/horizontales
-- ✅ Script de pruebas especializado para elementos complejos
+- 6 variantes de preprocesamiento (incluye estructuras matemáticas)
+- 7 configuraciones OCR especializadas (42 intentos totales)
+- Detección avanzada de fracciones, potencias, raíces
+- Reconocimiento de sumatorias, integrales, secuencias
+- Corrección inteligente de 50+ símbolos matemáticos
+- Procesamiento especial para elementos verticales/horizontales
+- Script de pruebas especializado para elementos complejos
 ### v2.0 (Anterior) - Sistema Multi-Estrategia
-- ✅ 5 variantes de preprocesamiento
-- ✅ 4 configuraciones OCR por variante  
-- ✅ Selección automática del mejor resultado
-- ✅ Corrección avanzada de símbolos matemáticos
-- ✅ Timeouts y manejo de errores robusto
+- 5 variantes de preprocesamiento
+- 4 configuraciones OCR por variante  
+- Selección automática del mejor resultado
+- Corrección avanzada de símbolos matemáticos
+- Timeouts y manejo de errores robusto
 
 ### v1.0 (Anterior) - Sistema Básico
-- ❌ Una sola estrategia de procesamiento
-- ❌ Configuración OCR fija
-- ❌ Correcciones limitadas
-- ❌ Fallos frecuentes con escritura problemática
+- Una sola estrategia de procesamiento
+- Configuración OCR fija
+- Correcciones limitadas
+- Fallos frecuentes con escritura problemática
 
-## 🤝 Contribuciones
+## Contribuciones
 
 Para mejorar el sistema OCR:
 
@@ -329,4 +329,4 @@ Para mejorar el sistema OCR:
 
 ---
 
-🎉 **¡El sistema OCR mejorado está listo para revolucionar tu reconocimiento de fórmulas matemáticas!**
+**¡El sistema OCR mejorado está listo para revolucionar tu reconocimiento de fórmulas matemáticas!**
