@@ -62,7 +62,7 @@ python main.py
 
 ### Pruebas Independientes
 
-### Pruebas de Análisis Espacial ⭐ NUEVO
+### Pruebas de Análisis Espacial NUEVO
 
 #### Probar fracciones y potencias manuscritas:
 ```bash
@@ -176,7 +176,7 @@ if "error" not in result:
 - `∧` (y), `∨` (o), `¬` (no)
 - `∀` (para todo), `∃` (existe)
 
-### Elementos Matemáticos Avanzados NUEVOS ✨
+### Elementos Matemáticos Avanzados NUEVOS
 
 #### Fracciones
 - `1/2`, `3/4`, `5/8` (fracciones simples)
@@ -288,7 +288,7 @@ pip install easyocr
 
 ## Historial de Versiones
 
-### v2.2 (Actual) - Análisis Espacial Inteligente 🎯
+### v2.2 (Actual) - Análisis Espacial Inteligente
 - **ANÁLISIS ESPACIAL**: Detección basada en posición relativa de elementos
 - **FRACCIONES MANUSCRITAS**: Reconoce numerador arriba, línea, denominador abajo
 - **POTENCIAS REALES**: Solo detecta números pequeños arriba a la derecha
@@ -296,7 +296,7 @@ pip install easyocr
 - **SECUENCIAS ESPACIALES**: Elementos alineados horizontalmente
 - Priorización de análisis espacial sobre OCR estándar
 - Script de pruebas específico para elementos manuscritos
-### v2.1 (Anterior) - Elementos Matemáticos Complejos ✨
+### v2.1 (Anterior) - Elementos Matemáticos Complejos
 - 6 variantes de preprocesamiento (incluye estructuras matemáticas)
 - 7 configuraciones OCR especializadas (42 intentos totales)
 - Detección avanzada de fracciones, potencias, raíces
